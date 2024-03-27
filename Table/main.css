@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+th, td, table{
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse:collapse;
+}
+
+th,td{
+    padding: 5px;
+}
+
+th{
+    background-color: rgb(70, 112, 70);
+    color: rgb(255, 255, 255);
+}
+
+tr:nth-child(even){
+    background-color: #c3c3c3;
+}
+
+.aprovado{
+    color:hsl(219, 100%, 70%);
+}
+
+.reprovado{
+    color:hsl(0, 100%, 70%);
+}
+
+.aprovado, .reprovado{
+    text-align:center;
+}
+
+.media{
+    background-color: rgb(70, 112, 70);
+    color: rgb(255, 255, 255);
+}
